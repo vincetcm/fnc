@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Superuser\Downloads\Communication_Software_for_FANUC_CNC_V94_2\Application Files\Communication Software for FANUC_94_0_0_2\Communication Software for FANUC.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BAC6ACF-1D8F-4674-9BB0-EE3B77840986}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Communication Software for FANUC</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>FANUC_Open_Com</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Focas1.cs" />
+    <Compile Include="Form_config.cs" />
+    <Compile Include="Form_listado_FTP.cs" />
+    <Compile Include="Form_crear_directorio.cs" />
+    <Compile Include="Form_rename_file.cs" />
+    <Compile Include="FTPLineParser.cs" />
+    <Compile Include="FTPLineResult.cs" />
+    <Compile Include="Form_TextEditor.cs" />
+    <Compile Include="Form_enviar_ethernet.cs" />
+    <Compile Include="Form_enviar_rs232c.cs" />
+    <Compile Include="CNC_Explorer.cs" />
+    <Compile Include="FileExplorer.cs" />
+    <Compile Include="Form_ajustes_explorador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_explorer.cs" />
+    <Compile Include="Class_chequeo_errores_focas.cs" />
+    <Compile Include="Class_configurar_ethernet.cs" />
+    <Compile Include="Form_copiar_programa.cs" />
+    <Compile Include="Form_cear_directorio.cs" />
+    <Compile Include="Form_listado_programas.cs" />
+    <Compile Include="Form_renombrar_programa.cs" />
+    <Compile Include="Form_clave.cs" />
+    <Compile Include="Form_email.cs" />
+    <Compile Include="Form_informacion_general.cs" />
+    <Compile Include="Form_informacion.cs" />
+    <Compile Include="Informacion.cs" />
+    <Compile Include="Form_main.cs" />
+    <Compile Include="Main_program.cs" />
+    <Compile Include="Form_recibir_ethernet.cs" />
+    <Compile Include="Form_recibir_rs232c.cs" />
+    <Compile Include="Form_informacion_servidor_rs232c.cs" />
+    <Compile Include="Form_servidor_rs232c.cs" />
+    <Compile Include="Form_editar_usuario.cs" />
+    <Compile Include="Form_listado_usuarios.cs" />
+    <Compile Include="Form_FTP_server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servidor_CNC\Resource_Form_servidor_rs232c.cs" />
+    <Compile Include="Servidor_CNC\FTP_Servidor\Resource_Form_editar_usuario.cs" />
+    <Compile Include="Servidor_CNC\FTP_Servidor\Resource_Form_listado_usuarios.cs" />
+    <Compile Include="Servidor_CNC\FTP_Servidor\Resource_Form_servidor_FTP.cs" />
+    <Compile Include="Recibir\Resource_Form_recibir_ethernet.cs" />
+    <Compile Include="Recibir\Resource_Form_recibir_rs232c.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="Principal\Resource_Form_main.cs" />
+    <Compile Include="Menu_informacion\Resource_Form_informacion.cs" />
+    <Compile Include="Menu_informacion\Resource_Form_clave.cs" />
+    <Compile Include="Menu_informacion\Resource_Informacion.cs" />
+    <Compile Include="Listado_programas\Resource_Form_crear_directorio.cs" />
+    <Compile Include="Listado_programas\Resource_Form_renombrar.cs" />
+    <Compile Include="Listado_programas\Resource_Form_copiar.cs" />
+    <Compile Include="Listado_programas\Resource_Form_listado_programas.cs" />
+    <Compile Include="Focas_gj\Resource_configurar_ethernet.cs" />
+    <Compile Include="Focas_gj\Resource_errores_focas.cs" />
+    <Compile Include="Enviar\Resource_Form_enviar_rs232c.cs" />
+    <Compile Include="Enviar\Resource_Form_enviar_ethernet.cs" />
+    <Compile Include="Explorador\Resource_Form_explorer.cs" />
+    <Compile Include="Edit2\Resource_Form_TextEditor.cs" />
+    <Compile Include="DATASERVER\FTP_Cliente\Resource_Form_listado_FTP.cs" />
+    <Compile Include="DATASERVER\FTP_Cliente\Resource_Form_nuevo_directorio.cs" />
+    <Compile Include="DATASERVER\FTP_Cliente\Resource_Form_renombrar_fichero.cs" />
+    <Compile Include="Configuracion\Form_IP_info.cs" />
+    <Compile Include="Configuracion\Resource_Form_config.cs" />
+    <Compile Include="CNC_SCREEN\Resource1.cs" />
+    <Compile Include="CNC_SCREEN\Resource_errores_CNC_SCREEN.cs" />
+    <Compile Include="CNC_MACRO_LIST\Resource_mensajes_CNC_MACRO_LIST.cs" />
+    <Compile Include="CNC_MACHINE_INFO\Resource_mensajes_CNC_MACHINE_INFO.cs" />
+    <Compile Include="CNC_BACKUP_RESTORE\Resource_mensajes_CNC_BACKUP_RESTORE.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CNC_BACKUP_RESTORE\Resource_mensajes_CNC_BACKUP_RESTORE.resx" />
+    <EmbeddedResource Include="CNC_MACHINE_INFO\Resource_mensajes_CNC_MACHINE_INFO.resx" />
+    <EmbeddedResource Include="CNC_MACRO_LIST\Resource_mensajes_CNC_MACRO_LIST.resx" />
+    <EmbeddedResource Include="CNC_SCREEN\Resource_errores_CNC_SCREEN.resx" />
+    <EmbeddedResource Include="CNC_SCREEN\Resource1.resx" />
+    <EmbeddedResource Include="Configuracion\Form_IP_info.resx" />
+    <EmbeddedResource Include="Configuracion\Resource_Form_config.resx" />
+    <EmbeddedResource Include="DATASERVER\FTP_Cliente\Resource_Form_listado_FTP.resx" />
+    <EmbeddedResource Include="DATASERVER\FTP_Cliente\Resource_Form_nuevo_directorio.resx" />
+    <EmbeddedResource Include="DATASERVER\FTP_Cliente\Resource_Form_renombrar_fichero.resx" />
+    <EmbeddedResource Include="Edit2\Resource_Form_TextEditor.resx" />
+    <EmbeddedResource Include="Enviar\Resource_Form_enviar_ethernet.resx" />
+    <EmbeddedResource Include="Enviar\Resource_Form_enviar_rs232c.resx" />
+    <EmbeddedResource Include="Explorador\Resource_Form_explorer.resx" />
+    <EmbeddedResource Include="Focas_gj\Resource_configurar_ethernet.resx" />
+    <EmbeddedResource Include="Focas_gj\Resource_errores_focas.resx" />
+    <EmbeddedResource Include="Form_ajustes_explorador.resx" />
+    <EmbeddedResource Include="Form_cear_directorio.resx" />
+    <EmbeddedResource Include="Form_clave.resx" />
+    <EmbeddedResource Include="Form_config.resx" />
+    <EmbeddedResource Include="Form_copiar_programa.resx" />
+    <EmbeddedResource Include="Form_crear_directorio.resx" />
+    <EmbeddedResource Include="Form_editar_usuario.resx" />
+    <EmbeddedResource Include="Form_email.resx" />
+    <EmbeddedResource Include="Form_enviar_ethernet.resx" />
+    <EmbeddedResource Include="Form_enviar_rs232c.resx" />
+    <EmbeddedResource Include="Form_explorer.resx" />
+    <EmbeddedResource Include="Form_FTP_server.resx" />
+    <EmbeddedResource Include="Form_informacion.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_informacion_general.resx" />
+    <EmbeddedResource Include="Form_informacion_servidor_rs232c.resx" />
+    <EmbeddedResource Include="Form_listado_FTP.resx" />
+    <EmbeddedResource Include="Form_listado_programas.resx" />
+    <EmbeddedResource Include="Form_listado_usuarios.resx" />
+    <EmbeddedResource Include="Form_main.resx" />
+    <EmbeddedResource Include="Form_recibir_ethernet.resx" />
+    <EmbeddedResource Include="Form_recibir_rs232c.resx" />
+    <EmbeddedResource Include="Form_rename_file.resx" />
+    <EmbeddedResource Include="Form_renombrar_programa.resx" />
+    <EmbeddedResource Include="Form_servidor_rs232c.resx" />
+    <EmbeddedResource Include="Form_TextEditor.resx" />
+    <EmbeddedResource Include="Listado_programas\Resource_Form_copiar.resx" />
+    <EmbeddedResource Include="Listado_programas\Resource_Form_crear_directorio.resx" />
+    <EmbeddedResource Include="Listado_programas\Resource_Form_listado_programas.resx" />
+    <EmbeddedResource Include="Listado_programas\Resource_Form_renombrar.resx" />
+    <EmbeddedResource Include="Menu_informacion\Resource_Form_clave.resx" />
+    <EmbeddedResource Include="Menu_informacion\Resource_Form_informacion.resx" />
+    <EmbeddedResource Include="Menu_informacion\Resource_Informacion.resx" />
+    <EmbeddedResource Include="Principal\Resource_Form_main.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Recibir\Resource_Form_recibir_ethernet.resx" />
+    <EmbeddedResource Include="Recibir\Resource_Form_recibir_rs232c.resx" />
+    <EmbeddedResource Include="Servidor_CNC\FTP_Servidor\Resource_Form_editar_usuario.resx" />
+    <EmbeddedResource Include="Servidor_CNC\FTP_Servidor\Resource_Form_listado_usuarios.resx" />
+    <EmbeddedResource Include="Servidor_CNC\FTP_Servidor\Resource_Form_servidor_FTP.resx" />
+    <EmbeddedResource Include="Servidor_CNC\Resource_Form_servidor_rs232c.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

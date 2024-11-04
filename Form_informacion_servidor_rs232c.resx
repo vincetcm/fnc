@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Icon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgCAAAAAAAAAAAAAAAPAwAAADYEAAACAAABAAIAEBAQAAAAAAAoAQAAJgAAACAgEAAAAAAA6AIAAE4BAAAoAAAAEAAAACAAAAABAAQAAAAAAIAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAD4+PgAAgAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAMrH+AAD/AAAA//8A/wAAAP8A/wD//7kA////AAAAAAAAAAAAAAEREREREAAAAf8f8f8QAAABERERERAAAAH/H/H/EAAAAREREREQAAABmRmRqhAAAAGZGZGqEAAAAQAAAAAQAAABDu7u4BAAAAEO7u7gEAAAAQ7u7uAQAAABDu7u4BAAAAEAAAAAEAAAC7u7uxEQAAAAAAAAAAAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAABAAAAAAAAAAMzMzAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgABQq/4AAP8AAAD//wD/AAAA/wD/AP//vQD///8AAAAAAAAAAAAAAAAAAAAAAAAAAREREREREREREREQAAAAAAH/H/H/H/H/H/H/EAAAAAAB/x/x/x/x/x/x/xAAAAAAAREREREREREREREQAAAAAAH/H/H/H/H/H/H/EAAAAAAB/x/x/x/x/x/x/xAAAAAAAREREREREREREREQAAAAAAH/H/H/H/H/EREREAAAAAAB/x/x/x/x/xERERAAAAAAAREREREREREREREQAAAAAAEREREREREREREREAAAAAABmRmRmRmRmREaoRAAAAAAAZkZkZkZkZkRGqEQAAAAAAEREREREREREREREAAAAAABEAAAAAAAAAAAARAAAAAAAQ7u7u7u7u7u7uAQAAAAAAEO7u7u7u7u7u7gEAAAAAABDu7u7u7u7u7u4BAAAAAAAQ7u7u7u7u7u7uAQAAAAAAEO7u7u7u7u7u7gEAAAAAABDu7u7u7u7u7u4BAAAAAAAQ7u7u7u7u7u7uAQAAAAAAEO7u7u7u7u7u7gEAAAAAABDu7u7u7u7u7u4BAAAAAAAQ7u7u7u7u7u7uAQAAAAAAEO7u7u7u7u7u7gEAAAAAABEAAAAAAAAAAAARAAAAAAAREREREREREREREQAAAAAAG7u7u7u7uxEREREAAAAAABERERERERERERERAAAAAAAAAAAAAAAAAAAAAAAAD4AAAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/gAAB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+AAAHws=</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Informacion sobre el Modo Servidor de RS232C</value>
+  </data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJkEAADqAgAACw==</value>
+  </data>
+  <data name="$this.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAs=</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEEAAAABAAAAAQAAAAEAAAACw==</value>
+  </data>
+  <data name="richTextBox1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAI8EAADkAgAACw==</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>MODO DE FUNCIONAMIENTO
+
+Activando el Modo Servidor, el operario puede solicitar (pedir) desde el CNC  un programa que reside en el PC.
+Permite "visualizar" en el CNC el listado de programas en directorio de trabajo definido en el PC mediante una solicitud desde el CNC.
+También es posible borrar, renombrar o copiar ficheros en el directorio de trabajo definido en el PC desde el CNC o salvar programas en el PC con el nombre deseado.
+Para poder trabajar en este modo hay que seleccionar en esta pantalla, el directorio de trabajo en el PC donde se encuentran los ficheros y programas y desde donde se van a enviar al CNC etc.
+
+También hay que ajustar el tiempo a partir del cual el PC enviará al CNC el programa (una vez que el CNC haya solicitado al PC el envío de un fichero).
+
+Ajustar el tiempo suficiente para poder preparar el CNC y así  recibir el programa cuando lo envíe el PC.
+
+ACTIVAR el modo servidor pulsando “Activar modo servidor”.
+
+En este modo el PC está preparado para recibir la solicitud del CNC y atender a la solicitud después del tiempo establecido en el ajuste.
+Borrar, renombrar o copiar ficheros en el directorio de trabajo definido en el PC se efectúan inmediatamente después de recibida la solicitud.
+ 
+Operaciones en el CNC  (ordenes desde el CNC al PC):
+
+Desde el CNC hay que enviar un programa cualquiera al PC con un formato especial que depende de la orden (solicitud) que queremos indicar al PC:
+
+****************************************************************************
+A) RECIBIR en el CNC desde el PC
+****************************************************************************
+Para solicitar al PC que envíe un fichero al CNC hay operar de la siguiente manera:
+
+Una vez activado el modo servidor según lo descrito anteriormente, enviar un programa cualquiera desde el CNC al PC con el contenido siguiente:
+(R=xxxx.yyy) siendo “xxxx.yyy” el nombre del fichero en el PC.
+
+Ejemplo:
+
+Para solicitar al PC para que envíe el fichero “O1417.TXT” al CNC,  crearemos un  programa en el CNC que contenga algo así:
+
+%
+O5555(R=O1417.TXT)
+M30
+%
+El número de programa (“O5555” en el ejemplo) puede ser cualquiera y el nombre del fichero (“O1417.TXT” en el ejemplo) debe estar en el PC, en el directorio de trabajo ajustado previamente en el PC. 
+El nombre del fichero en el PC puede ser cualquiera pero debe coincidir exactamente tanto en el nombre como en la extensión.
+
+Enviar este programa desde el CNC al PC  tal y como se indica en el apartado:
+Recibir Programas desde el CNC al PC por RS232C:
+
+Una vez enviado el programa desde el CNC al PC, seguidamente preparar el CNC para recibir programas (esta operación debe hacerse antes del tiempo establecido en el apartado anterior).
+
+En la pantalla del CNC deberá estar parpadeado la señal “LSK” (indicando que el CNC está preparado para recibir) antes de que el PC empiece a enviar el programa en el tiempo establecido.
+
+Una vez trascurrido el tiempo establecido, el PC enviará el fichero (“O1417.TXT” en el ejemplo) si es que este se encuentra en el directorio de trabajo establecido en el apartado anterior.
+
+El programa enviado por el PC al CNC podrá ser visualizado tanto en el CNC como en el PC:
+
+Si no existiera el fichero en el PC (en el directorio de trabajo establecido en el apartado anterior), o bien nos hemos equivocado al escribir el comando de solicitud, el PC enviará el siguiente programa a CNC:
+
+%
+O0000(ERROR EN LA ORDEN)
+M30
+%
+
+
+NOTA:
+Si al recibir el programa en el CNC se interrumpe la comunicación (por una alarma, Reset etc.), para poder establecer una nueva comunicación basta con enviar una nueva orden al servidor (PC) o bien pulsar “Cancelar Envío” en esta aplicación.
+
+
+****************************************************************************
+B) LISTAR los ficheros del PC en el CNC
+****************************************************************************
+
+Para solicitar que el PC envíe el listado de ficheros en el directorio de trabajo establecido y mostrarlo en el CNC, hay que operar de la siguiente manera:
+
+Una vez activado el modo servidor según lo descrito anteriormente, enviar un programa desde el CNC al PC con el contenido siguiente:
+(L=) .
+
+Por ejemplo, editar el siguiente programa en el CNC:
+
+%
+O6666(L=)
+M30
+%
+
+Enviar este programa desde el CNC al PC  tal y como se indica en el apartado:
+Recibir Programas desde el CNC al PC por RS232C:
+
+Una vez enviado el programa, seguidamente preparar el CNC para recibir programas (esta operación debe hacerse antes del tiempo establecido en el apartado anterior).
+
+En la pantalla del CNC deberá estar parpadeado la señal “LSK” (indicando que el CNC está preparado para recibir) antes de que el PC empiece a enviar el programa en el tiempo establecido.
+
+Una vez trascurrido el tiempo establecido, el PC enviará el listado de ficheros que se encuentra en el directorio de trabajo establecido en el apartado anterior.
+Los nombres de fichero del listado aparecerán entre paréntesis como un programa ISO con el número O0000.
+
+El listado enviado por el PC al CNC podrá ser visualizado tanto en el CNC como en el PC.
+
+Si no hemos escrito correctamente el comando de solicitud, el PC enviará el siguiente programa al CNC:
+
+%
+O0000(ERROR EN LA ORDEN)
+M30
+%
+
+NOTA:
+Si al recibir el programa en el CNC se interrumpe la comunicación (por una alarma, Reset etc.), para poder establecer una nueva comunicación basta con enviar una nueva orden al servidor (PC) o bien pulsar “Cancelar Envío” en esta aplicación.
+
+En el PC aparecerá la orden recibida desde el CNC y el listado enviado.
+
+
+****************************************************************************
+C) ENVIAR programas o datos desde el CNC al PC 
+****************************************************************************
+
+En este modo (modo servidor), antes de enviar el programa  que queremos salvar desde el CNC al PC, hay que informar al PC el nombre del fichero con el que queremos guardar en el PC.
+Para ello hay que enviar antes otro programa con un formato especial..
+
+Una vez activado el modo servidor según lo descrito anteriormente, hay que enviar un programa desde el CNC al PC con el contenido siguiente:
+(S=xxxx.yyy) siendo “xxxx.yyy” el nombre del fichero con el que queremos salvar en el PC.
+
+Por ejemplo, editar el siguiente programa en el CNC:
+
+%
+O7777(S=O1447.TXT)
+M30
+%
+
+Enviar este programa desde el CNC al PC  tal y como se indica en el apartado:
+Recibir Programas desde el CNC al PC por RS232C:
+
+Una vez enviado este programa con formato especial, seguidamente enviar el programa que se quiere salvar en el PC (esta operación debe hacerse antes del tiempo establecido en el apartado anterior).
+El  PC ira salvando los datos que va recibiendo en un fichero cuyo nombre se ha indicado anteriormente, “O1447.TXT” en el ejemplo anterior. El nombre puede ser cualquiera 
+
+
+NOTA1 :
+Si al recibir el programa en el PC se interrumpe la comunicación (por una alarma, Reset etc.), para poder establecer una nueva comunicación basta con enviar una nueva orden al servidor (PC) .
+
+
+NOTA2:
+Hay que tener mucho cuidado a la hora de indicar el nombre del fichero (S=xxxx.yyy), ya que si existe anteriormente un fichero con el mismo nombre, se sobrescribirá en el mismo perdiendo los datos anteriores.
+
+
+****************************************************************************
+D) BORRAR fichero en el PC desde el CNC 
+****************************************************************************
+
+En este modo (modo servidor), es posible borrar ficheros en el directorio de trabajo del PC desde CNC.
+Para ello hay que enviar antes otro programa con un formato especial..
+
+Una vez activado el modo servidor según lo descrito anteriormente, hay que enviar un programa desde el CNC al PC con el contenido siguiente:
+(D=xxxx.yyy) siendo “xxxx.yyy” el nombre del fichero que queremos borrar en el PC.
+
+Por ejemplo, editar el siguiente programa en el CNC:
+
+%
+O8888(D=O1447.TXT)
+M30
+%
+
+Enviar este programa desde el CNC al PC  tal y como se indica en el apartado:
+Recibir Programas desde el CNC al PC por RS232C:
+
+Una vez enviado este programa con formato especial,  el servidor borrara el fichero en el directorio de trabajo del PC, el fichero “O1447.TXT” en el ejemplo anterior. El nombre puede ser cualquiera 
+
+
+NOTA:
+Hay que tener mucho cuidado a la hora de indicar el nombre del fichero (D=xxxx.yyy), ya que se borrara sin ningún otro aviso.
+
+
+****************************************************************************
+E) RENOMBRAR un fichero en el PC desde el CNC 
+****************************************************************************
+
+En este modo (modo servidor), es posible renombrar (cambiar de nombre) en el directorio de trabajo del PC desde CNC.
+Para ello hay que enviar antes otro programa con un formato especial..
+
+Una vez activado el modo servidor según lo descrito anteriormente, hay que enviar un programa desde el CNC al PC con el contenido siguiente:
+(N=xxxx.yyy, uuuu.vvv) siendo “xxxx.yyy” el nombre del fichero que queremos cambiar de nombre en el PC y “uuuu.vvv” el nuevo nombre para el mismo fichero.
+
+Importante: los nombres de ambos ficheros deben estar separados por una coma “,”
+
+Por ejemplo, editar el siguiente programa en el CNC:
+
+%
+O7788(N=O1447.TXT, O6887.TXT )
+M30
+%
+
+Enviar este programa desde el CNC al PC  tal y como se indica en el apartado:
+Recibir Programas desde el CNC al PC por RS232C:
+
+Una vez enviado este programa con formato especial,  el servidor cambiara el nombre del fichero en el directorio de trabajo del PC, en el ejemplo anterior el fichero “O1447.TXT” se cambiara por O6887.TXT. 
+El nombre puede ser cualquiera.
+
+
+****************************************************************************
+F) COPIAR un fichero en el PC desde el CNC 
+****************************************************************************
+En este modo (modo servidor), es posible hacer una copia de un fichero en el directorio de trabajo del PC desde CNC.
+
+Para ello hay que enviar antes otro programa con un formato especial..
+
+Una vez activado el modo servidor según lo descrito anteriormente, hay que enviar un programa desde el CNC al PC con el contenido siguiente:
+(N=xxxx.yyy, uuuu.vvv) siendo “xxxx.yyy” el nombre del fichero del cual queremos hacer una copia y “uuuu.vvv” el nuevo nombre del fichero copiado.
+
+Importante: los nombres de ambos ficheros deben estar separados por una coma “,”
+
+Por ejemplo, editar el siguiente programa en el CNC:
+
+%
+O7799(C=O1447.TXT, O6887.TXT )
+M30
+%
+
+Enviar este programa desde el CNC al PC  tal y como se indica en el apartado:
+Recibir Programas desde el CNC al PC por RS232C:
+
+Una vez enviado este programa con formato especial,  el servidor hará una copia del fichero en el directorio de trabajo del PC, en el ejemplo anterior se creara un fichero  “O6887.TXT”.igual al fichero “O1447.TXT” . 
+El nombre puede ser cualquiera.
+
+********************************************************************************************
+G) Cambiar el DIRECTORIO de trabajo en el PC desde donde se envían, reciben, se listan etc. los ficheros 
+********************************************************************************************
+En este modo (modo servidor), es posible cambiar directorio (carpeta) de trabajo del PC desde CNC.
+
+Para ello hay que enviar antes otro programa con un formato especial.
+
+Una vez activado el modo servidor según lo descrito anteriormente, hay que enviar un programa desde el CNC al PC con el contenido siguiente:
+(W=xxxx.yyy) siendo “xxxx.yyy” el nombre del directorio (carpeta) al cual queremos cambiar. 
+Si el directorio (carpeta) no existe, se creará uno nuevo con el nombre indicado.
+
+Por ejemplo, editar el siguiente programa en el CNC:
+
+%
+O7766 (W=C:/MAQUINA1/PIEZA2 )
+M30
+%
+
+Enviar este programa desde el CNC al PC  tal y como se indica en el apartado:
+Recibir Programas desde el CNC al PC por RS232C:
+
+Una vez enviado este programa con formato especial,  el servidor cambiara de directorio (carpeta).
+Si el directorio (carpeta) no existe, se creará uno nuevo con el nombre indicado es decir: C:\MAQUINA1\PIEZA2\ )
+El servidor cambiara automáticamente el símbolo “/” por “\” para que el PC pueda identificarlo correctamente.
+
+El nombre puede ser cualquiera.
+
+
+</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="richTextBox1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAAgAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form_informacion_servidor_rs232c</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="richTextBox1.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAs=</value>
+  </data>
+  <data name="richTextBox1.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEEAAAABAAAAAQAAAAEAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAABBAACAQQs=</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+</root>
